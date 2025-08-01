@@ -1,0 +1,358 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 500;
+  margin-left: 15px;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.btn {
+  border-radius: 25px;
+}
+
+section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.video-section {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.video-text {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  color: white;
+  z-index: 2;
+  max-width: 80%;
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+}
+
+.video-text p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.video-text h5 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.hero-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.hero-subtext {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #333;
+  margin-top: 15px;
+}
+
+.discover-text {
+  font-weight: 600;
+  margin-top: 15px;
+  font-size: 1.1rem;
+}
+
+.hero-link {
+  color: #000;
+  font-weight: 400;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.hero-link:hover {
+  text-decoration: underline;
+}
+
+.tab-frame-left {
+  width: 510px;
+  height: 350px;
+  border: 12px solid #333;
+  border-radius: 40px;
+  background: #111;
+  transform: rotate(10deg);
+  box-shadow: -30px 30px 80px rgba(0, 0, 0, 0.35);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.tab-image {
+  width: 97%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 28px;
+}
+
+.training-card {
+  flex: 0 0 auto;
+  width: 330px;
+  height: 500px;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.training-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.black-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.content-overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  color: white;
+  z-index: 2;
+}
+
+.text-box {
+  padding: 10px;
+}
+
+.title-line {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 4px;
+  color: white;
+  text-align: left;
+}
+
+.caption-line {
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-bottom: 8px;
+  color: white;
+  text-align: left;
+}
+
+.duration-text {
+  font-size: 0.85rem;
+  text-align: right;
+  line-height: 1.2;
+  color: white;
+}
+
+.duration-text div:last-child {
+  font-weight: bold;
+  margin-top: 2px;
+}
+
+.custom-btn {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 8px 16px;
+  font-size: 0.85rem;
+  border-radius: 0;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.enter-btn {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 0;
+  font-size: 1rem;
+}
+
+.scroll-container {
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  padding-bottom: 1rem;
+  display: flex;
+  overflow-x: auto;
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+}
+
+.left-scroll {
+  left: 0;
+  margin-left: 8px;
+}
+
+.right-scroll {
+  right: 0;
+  margin-right: 8px;
+}
+
+.scroll-btn button {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: black;
+  border: none;
+  padding: 10px 14px;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.insight-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5rem;
+  gap: 3rem;
+}
+
+.insight-text {
+  flex: 1;
+}
+
+.insight-line {
+  margin-bottom: 0.5rem;
+}
+
+.insight-btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.insight-btn {
+  padding: 1rem 2rem;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 200px;
+}
+
+@media (max-width: 767.98px) {
+  .insight-content {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .insight-btn-wrapper {
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .insight-btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .training-card {
+    width: 100%;
+    flex: 0 0 100%;
+    margin-right: 12px;
+  }
+
+  .scroll-container {
+    overflow-x: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.2rem;
+  }
+
+  .tab-frame-left {
+    width: 330px;
+    height: 330px;
+    transform: rotate(6deg);
+    padding: 4px;
+  }
+
+  .tab-image {
+    width: 96%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .video-text {
+    bottom: 20px;
+    left: 20px;
+  }
+
+  .video-text h5 {
+    font-size: 16px;
+  }
+
+  .video-text p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  h1.display-5 {
+    font-size: 2rem;
+  }
+
+  .navbar-brand small {
+    display: block;
+    font-size: 10px;
+  }
+
+  .card img {
+    height: 180px;
+  }
+}
